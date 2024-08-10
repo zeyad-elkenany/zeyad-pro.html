@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العادات الصحية</title>
+    <meta name="description" content="موقع عن العادات الصحية وكيفية دمجها في روتينك اليومي.">
+    <style>
+        /* ========== Global Styles ========== */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.5s;
+            color: #333;
+        }
+
+        /* ========== Container ========== */
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* ========== Header ========== */
+        header {
+            background-color: #ffcccb;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+            border-bottom: 3px solid #ff9999;
+        }
+
+        /* ========== Intro ========== */
+        .intro {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .intro h1 {
+            font-size: 36px;
+            color: #2e8b57;
+        }
+        .intro p {
+            font-size: 18px;
+        }
+
+        /* ========== Color Picker ========== */
+        .color-picker {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .color-picker label {
+            font-size: 18px;
+        }
+
+        /* ========== Content ========== */
+        .content {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        .content h2 {
+            color: #333;
+        }
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* ========== Feedback Section ========== */
+        .feedback {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e0f7fa;
+            border-radius: 8px;
+        }
+        .feedback h2 {
+            color: #00796b;
+        }
+        .feedback textarea {
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #00796b;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        .feedback button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #00796b;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .feedback button:hover {
+            background-color: #004d40;
+            color: #ffffff;
+        }
+
+        /* ========== Videos Section ========== */
+        .videos {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f0f8ff;
+            border-radius: 8px;
+        }
+        .videos h2 {
+            color: #4682b4;
+        }
+        .videos a {
+            display: block;
+            color: #1e90ff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .videos a:hover {
+            text-decoration: underline;
+        }
+
+        /* ========== Footer ========== */
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+        footer a {
+            color: #00796b;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* ========== Designer Text ========== */
+        .designer {
+            position: fixed;
+            right: -200px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px 0 0 4px;
+            transition: right 0.5s;
+            cursor: pointer;
+        }
+        .designer:hover {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>مرحبًا بكم في موقع العادات الصحية</p>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <h1>العادات الصحية لحياة أفضل</h1>
+            <p>اكتشف أهمية العادات الصحية وكيفية دمجها في روتينك اليومي. استعرض المشكلات الشائعة والحلول لتحسين حياتك.</p>
+            <div class="color-picker">
+                <label for="bg-color">اختر لون الخلفية:</label>
+                <input type="color" id="bg-color" name="bg-color" value="#ffffff">
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>ما هي العادة؟</h2>
+            <p>العادة هي شيء يصبح روتينًا لك وتكرره، غالبًا دون أن تدرك ذلك أو تحتاج إلى جهد. بعض العادات جيدة، وبعضها سيء.</p>
+            <p>إنشاء عادات صحية والتخلي عن العادات السيئة مفيد لصحتك العقلية والرفاهية.</p>
+
+            <h2>عادات جيدة تشمل:</h2>
+            <ul>
+                <li>اتباع نظام غذائي صحي وممارسة الرياضة</li>
+                <li>التمتع بروتين نوم صحي</li>
+                <li>وجود علاقات صحية</li>
+                <li>ممارسة التواصل الحازم</li>
+                <li>التوازن بين العمل والحياة</li>
+                <li>إدارة الوقت بشكل جيد</li>
+                <li>إدارة التوتر</li>
+                <li>الاسترخاء ووعي الذهن</li>
+            </ul>
+
+            <h2>كيف يمكنني إنشاء عادات جيدة؟</h2>
+            <p>إنشاء عادات جديدة قد يكون تحديًا. من الأسهل تحديد أهداف صغيرة وواقعية وقابلة للتحقيق. هذا يساعد على خلق شعور بالثقة ويشجع الأهداف المستقبلية التي يمكنك البناء عليها.</p>
+            <p>قد يستغرق الأمر عدة أشهر لتكوين عادة جديدة. التكرار هو المفتاح. يجب عليك تضمين النشاط في روتينك العادي.</p>
+            <p>من المهم تخصيص وقت للعادة التي ترغب في تكوينها. يمكنك تتبع أهدافك عن طريق:</p>
+            <ul>
+                <li>الاحتفاظ بدفتر يوميات</li>
+                <li>استخدام تقويم حائطي</li>
+                <li>الالتزام لصديق أو أحد أفراد العائلة</li>
+            </ul>
+
+            <h2>أدوات للمساعدة في تكوين عادة صحية</h2>
+            <ol>
+                <li>حدد هدفك.</li>
+                <li>اختر عملًا بسيطًا يمكنك القيام به كل يوم.</li>
+                <li>خطط متى وأين ستقوم بعملك — اختر وقتًا ومكانًا تصادفه يوميًا.</li>
+                <li>كلما صادفت ذلك الوقت والمكان، قم بالعمل.</li>
+                <li>هنئ نفسك عندما تجد نفسك تقوم بالعمل.</li>
+            </ol>
+
+            <h2>كيفية تجنب العادات السيئة</h2>
+            <p>إذا كنت ترغب في التخلص من عادة سيئة، مثل:</p>
+            <ul>
+                <li>التدخين</li>
+                <li>شرب الكحول</li>
+                <li>تناول الوجبات السريعة</li>
+            </ul>
+            <p>من المهم أولاً فهم العادة. فكر في العادة التي تحاول التخلص منها وإذا كان هناك شيء يسببها، مثل:</p>
+            <ul>
+                <li>مكان</li>
+                <li>وقت</li>
+            </ul>
+            <p>يمكنك أيضًا استبدال العادة السيئة بعادة جيدة.</p>
+        </div>
+
+        <div class="feedback">
+            <h2>شارك اقتراحاتك</h2>
+            <textarea id="feedback" placeholder="اكتب اقتراحاتك هنا..." required></textarea>
+            <button onclick="sendFeedback()">أرسل</button>
+        </div>
+
+        <div class="videos">
+            <h2>شاهد هذه الفيديوهات لمزيد من النصائح</h2>
+            <a href="https://www.youtube.com/watch?v=udr1bdC6VB0" target="_blank">فيديو 1: أهمية التمرين</a>
+            <a href="https://www.youtube.com/watch?v=7hixiv62S5o" target="_blank">فيديو 2: عادات غذائية صحية</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>تابعنا على: <a href="https://www.instagram.com/zeyad_kenany" target="_blank">Instagram</a> | <a href="https://www.tiktok.com/@zeyad_kenany" target="_blank">TikTok</a></p>
+        <p>تم التصميم بواسطة Zeyad Kenany</p>
+    </footer>
+
+    <div class="designer">
+        <p>المصمم: Zeyad Kenany</p>
+    </div>
+
+    <script>
+        // لتغيير لون الخلفية
+        document.getElementById('bg-color').addEventListener('input', function () {
+            document.body.style.backgroundColor = this.value;
+        });
+
+        // مثال بسيط لإرسال التعليقات (وظيفة وهمية فقط)
+        function sendFeedback() {
+            alert("تم إرسال اقتراحك بنجاح! شكرًا لمساهمتك.");
+        }
+    </script>
+</body>
+</html>
